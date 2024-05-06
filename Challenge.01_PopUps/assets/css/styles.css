@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* -------------------- BODY --------------------*/
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  background-color: #f3f3f3;
+}
+
+/* -------------------- MAIN --------------------*/
+
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 432px;
+  height: 399px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.btn-popup-close {
+  margin-left: 350px;
+  margin-bottom: 10px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-popup-1,
+.btn-popup-2 {
+  text-align: center;
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px;
+  cursor: pointer;
+}
+
+.btn-popup-1 {
+  color: #ffffff;
+  background-color: #ed6755;
+  box-shadow: 0 3px 10px #ed6755;
+}
+
+.btn-popup-2 {
+  color: #ffffff;
+  background-color: #18255a;
+  box-shadow: 0 3px 10px #18255a;
+}
+
+.popup-info {
+  text-align: center;
+  width: 70%;
+  color: #000000;
+}
+
+.popup-info-2 {
+  text-align: center;
+  width: 50%;
+  color: #000000;
+}
