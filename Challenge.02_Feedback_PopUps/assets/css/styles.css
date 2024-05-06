@@ -45,6 +45,7 @@ body {
 
 .popup-info {
   text-align: justify;
+  line-height: 25px;
   width: 62%;
   color: #000000;
   font-weight: bold;
@@ -108,13 +109,11 @@ input[type="checkbox"] {
 
 label {
   margin-left: 8px;
-  font-size: medium;
 }
 
 p.linea {
   border-bottom: solid 1px #c7c7c7;
   width: 63%;
-  height: 50px;
 }
 
 .btn-popup-1 {
